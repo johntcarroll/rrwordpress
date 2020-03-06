@@ -1,0 +1,58 @@
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.31","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.31","data":"Basename file: `backup-redesignright_com_wordpress-2020_02_06-08_47am-full-ateodezj3v.zip`. Post-send deletion: 1"}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.32","data":"Created fileoptions lock file `send-jhzd2foq9sv1.txt.lock` with ID: 5e3c1a07aa8fd9.63782959."}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.32","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.32","data":"Fileoptions `send-jhzd2foq9sv1.txt` saved. 1128 bytes written."}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.32","data":"Initializing destination."}
+{"event":"details","time":1580979127,"u":"69","run":"0.18","mem":"38.32","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.39","data":"Destination init loaded."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.42","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.42","data":"Applying destination-specific defaults."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.43","data":"Applying global destination defaults."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.43","data":"Calling destination-specific send method `pb_backupbuddy_destination_dropbox2::send`."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.43","data":"Dropbox2 send function started. Remote send id: `jhzd2foq9sv1`."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.59","data":"Connected to Dropbox."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.59","data":"Opening file `backup-redesignright_com_wordpress-2020_02_06-08_47am-full-ateodezj3v.zip` to send."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.59","data":"File exceeds chunking limit of `80` MB. Using chunked upload for this file transfer."}
+{"event":"details","time":1580979127,"u":"70","run":"0.18","mem":"38.59","data":"Reading first chunk into memory."}
+{"event":"details","time":1580979128,"u":"29","run":"0.77","mem":"118.61","data":"About to start chunked upload & put first chunk of file `backup-redesignright_com_wordpress-2020_02_06-08_47am-full-ateodezj3v.zip` to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1580979128,"u":"29","run":"0.78","mem":"118.61","data":"chunkedUploadStart start."}
+{"event":"details","time":1580979128,"u":"29","run":"0.78","mem":"118.61","data":"_chunkedUpload start."}
+{"event":"details","time":1580979128,"u":"29","run":"0.78","mem":"118.66","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/start?`."}
+{"event":"details","time":1580979128,"u":"36","run":"0.84","mem":"118.68","data":"About to exec in _chunkedUpload."}
+{"event":"details","time":1580979128,"u":"36","run":"0.84","mem":"118.68","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1580979132,"u":"23","run":"4.72","mem":"118.68","data":"chunkedUploadStart response: `Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => {\"session_id\": \"AAAAAAAAM2VvpdSyMZGVVA\"}\n)\n`."}
+{"event":"details","time":1580979132,"u":"23","run":"4.72","mem":"118.68","data":"_chunkedUploadCheckForOffsetCorrection start."}
+{"event":"details","time":1580979132,"u":"23","run":"4.72","mem":"118.68","data":"_chunkedUploadParse200Response start."}
+{"event":"details","time":1580979132,"u":"23","run":"4.72","mem":"118.68","data":"_chunkedUploadParse200Response finish."}
+{"event":"details","time":1580979132,"u":"23","run":"4.72","mem":"118.68","data":"Finished chunkedUploadStart."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.66","data":"Dropbox chunk transfer stats - Sent: `80 MB`, Transfer duration: `3.942323923111`, Speed: `20.29 MB`."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.66","data":"Sent first chunk to Dropbox with upload ID: `AAAAAAAAM2VvpdSyMZGVVA`. Offset: `83886080`."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.66","data":"Dropbox (PHP 5.3+) scheduling send of next part(s)."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.66","data":"Success scheduling next cron chunk."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Dropbox (PHP 5.3+) scheduled send of next part(s). Done for this cycle."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Multipart chunk mode completed a pass of the send function. Resuming will be needed. Result: `Array\n(\n    [0] => AAAAAAAAM2VvpdSyMZGVVA\n    [1] => Sent 1 of 10 parts.\n)\n`."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Created fileoptions lock file `send-jhzd2foq9sv1.txt.lock` with ID: 5e3c1a0c3c49c3.98829370."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.65","data":"Fileoptions `send-jhzd2foq9sv1.txt` saved. 1252 bytes written."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Next multipart chunk will be processed shortly. Now waiting on its cron..."}
+{"event":"details","time":1580979132,"u":"24","run":"4.72","mem":"38.64","data":"Ending send() function pass."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"36.96","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"36.96","data":"Basename file: `backup-redesignright_com_wordpress-2020_02_06-08_47am-full-ateodezj3v.zip`. Post-send deletion: 1"}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.03","data":"Created fileoptions lock file `send-jhzd2foq9sv1.txt.lock` with ID: 5e3c1a0fb38559.71642548."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.03","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.04","data":"Fileoptions `send-jhzd2foq9sv1.txt` saved. 2000 bytes written."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.03","data":"Initializing destination."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.03","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.11","data":"Destination init loaded."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.14","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.14","data":"Applying destination-specific defaults."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.14","data":"Applying global destination defaults."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.14","data":"Calling destination-specific send method `pb_backupbuddy_destination_dropbox2::send`."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.14","data":"Dropbox2 send function started. Remote send id: `jhzd2foq9sv1`."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.31","data":"Connected to Dropbox."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.31","data":"Dropbox (PHP 5.3+) preparing to send chunked multipart upload part 2 of 10 with set chunk size of `80` MB. Dropbox Upload ID: `AAAAAAAAM2VvpdSyMZGVVA`."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.31","data":"Opening file `backup-redesignright_com_wordpress-2020_02_06-08_47am-full-ateodezj3v.zip` to send."}
+{"event":"details","time":1580979135,"u":"73","run":"0.16","mem":"37.31","data":"Seeking file to byte `83886080`."}
+{"event":"details","time":1580979135,"u":"74","run":"0.16","mem":"37.31","data":"Seek success."}
+{"event":"details","time":1580979135,"u":"74","run":"0.16","mem":"37.31","data":"Reading chunk into memory."}

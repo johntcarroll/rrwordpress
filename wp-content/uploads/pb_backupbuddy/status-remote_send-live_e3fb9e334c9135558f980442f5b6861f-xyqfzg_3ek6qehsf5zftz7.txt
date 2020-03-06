@@ -1,0 +1,14 @@
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Basename file: `class-backupbuddy-backups.php`. Post-send deletion: "}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.00","data":"Created fileoptions lock file `send-live_e3fb9e334c9135558f980442f5b6861f-xyqfzg.txt.lock` with ID: 5e312fdeb5a429.17701640."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.00","data":"Fileoptions `send-live_e3fb9e334c9135558f980442f5b6861f-xyqfzg.txt` saved. 2840 bytes written."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Initializing destination."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Destination init loaded."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Initialized `live` destination."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"47.99","data":"Applying destination-specific defaults."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.00","data":"Applying global destination defaults."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.00","data":"Calling destination-specific send method `pb_backupbuddy_destination_live::send`."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.04","data":"Starting S32 send()."}
+{"event":"details","time":1580263822,"u":"74","run":"1.40","mem":"48.43","data":"Using bundled cacert.pem file based on destination settings."}

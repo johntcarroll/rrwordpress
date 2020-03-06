@@ -1,0 +1,57 @@
+{"event":"details","time":1583017938,"u":"12","run":"0.18","mem":"39.14","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1583017938,"u":"12","run":"0.19","mem":"39.14","data":"Basename file: `backup-redesignright_com_wordpress-2020_02_29-10_54pm-db-ym6jq8htun.zip`. Post-send deletion: 1"}
+{"event":"details","time":1583017938,"u":"12","run":"0.19","mem":"39.14","data":"Created fileoptions lock file `send-i3u6r431hoby.txt.lock` with ID: 5e5b36221f5940.99716109."}
+{"event":"details","time":1583017938,"u":"12","run":"0.19","mem":"39.14","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1583017938,"u":"12","run":"0.19","mem":"39.15","data":"Fileoptions `send-i3u6r431hoby.txt` saved. 1124 bytes written."}
+{"event":"details","time":1583017938,"u":"12","run":"0.19","mem":"39.14","data":"Initializing destination."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.14","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.22","data":"Destination init loaded."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.25","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.25","data":"Applying destination-specific defaults."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.25","data":"Applying global destination defaults."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.25","data":"Calling destination-specific send method `pb_backupbuddy_destination_dropbox2::send`."}
+{"event":"details","time":1583017938,"u":"13","run":"0.19","mem":"39.25","data":"Dropbox2 send function started. Remote send id: `i3u6r431hoby`."}
+{"event":"details","time":1583017938,"u":"13","run":"0.20","mem":"39.42","data":"Connected to Dropbox."}
+{"event":"details","time":1583017938,"u":"13","run":"0.20","mem":"39.42","data":"Opening file `backup-redesignright_com_wordpress-2020_02_29-10_54pm-db-ym6jq8htun.zip` to send."}
+{"event":"details","time":1583017938,"u":"13","run":"0.20","mem":"39.42","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1583017938,"u":"13","run":"0.20","mem":"39.42","data":"About to put file `backup-redesignright_com_wordpress-2020_02_29-10_54pm-db-ym6jq8htun.zip` (1.44 MB) to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1583017938,"u":"14","run":"0.20","mem":"39.42","data":"Send Directory: \/backupbuddy"}
+{"event":"details","time":1583017938,"u":"14","run":"0.20","mem":"39.44","data":"Non-chunk mode."}
+{"event":"details","time":1583017938,"u":"14","run":"0.20","mem":"39.49","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload?`."}
+{"event":"details","time":1583017938,"u":"14","run":"0.20","mem":"39.51","data":"About to exec in Curl.php curl_exec(). contentType: ``."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.51","data":"About to load fileoptions data."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.51","data":"Fileoptions instance #14."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.51","data":"Created fileoptions lock file `send-i3u6r431hoby.txt.lock` with ID: 5e5b3623a53802.43927063."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"Fileoptions data loaded."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"Dropbox (non-chunked) transfer stats - Sent: `1.44 MB`, Transfer duration: `1.5362679958344`, Speed: `961 KB\/sec`."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"Fileoptions `send-i3u6r431hoby.txt` saved. 1144 bytes written."}
+{"event":"message","time":1583017939,"u":"67","run":"1.73","mem":"39.51","data":"Success sending `backup-redesignright_com_wordpress-2020_02_29-10_54pm-db-ym6jq8htun.zip` to Dropbox!"}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.51","data":"Dropbox file limit in place. Proceeding with enforcement."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`."}
+{"event":"details","time":1583017939,"u":"67","run":"1.73","mem":"39.52","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`. Access token: `yie_-YQvkHUAAAAAAAApLNAIqsJ8WHAGnlSAiQMm9OeTkSWU4G-E0LWb4Mc-e_A7`."}
+{"event":"details","time":1583017939,"u":"67","run":"1.74","mem":"39.52","data":"Putting params in post field."}
+{"event":"details","time":1583017939,"u":"67","run":"1.74","mem":"39.52","data":"Content type: `application\/json`."}
+{"event":"details","time":1583017939,"u":"67","run":"1.74","mem":"39.52","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"Dropbox backup file count of `3` exceeds limit of `2`."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`. Access token: `yie_-YQvkHUAAAAAAAApLNAIqsJ8WHAGnlSAiQMm9OeTkSWU4G-E0LWb4Mc-e_A7`."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"Putting params in post field."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"Content type: `application\/json`."}
+{"event":"details","time":1583017939,"u":"95","run":"2.02","mem":"39.52","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.52","data":"Deleted excess Dropbox file: `\/backupbuddy\/backup-redesignright_com_wordpress-2020_02_14-08_52am-db-emutwz46p2.zip`"}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.52","data":"All files sent."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"Completed send function. Success."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"About to load fileoptions data."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"Fileoptions instance #16."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"Created fileoptions lock file `send-i3u6r431hoby.txt.lock` with ID: 5e5b362468dbf4.26129807."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1583017940,"u":"42","run":"2.49","mem":"39.51","data":"Fileoptions data loaded."}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.51","data":"Post-send deletion enabled."}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.51","data":"Performing post-send deletion since transfer succeeded."}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.51","data":"Deleting local file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/backupbuddy_backups\/backup-redesignright_com_wordpress-2020_02_29-10_54pm-db-ym6jq8htun.zip`."}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.64","data":"Deleted local file after successful remote destination send based on settings."}
+{"event":"archiveDeleted","time":1583017940,"u":"43","run":"2.49","mem":"39.64","data":""}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.64","data":"Sending finished destination send email notification."}
+{"event":"details","time":1583017940,"u":"43","run":"2.49","mem":"39.66","data":"Sending email schedule notification. Subject: `BackupBuddy File Send Finished - https:\/\/redesignright.com\/wordpress`; recipient(s): `debbie@redesignright.com`."}
+{"event":"details","time":1583017940,"u":"48","run":"2.54","mem":"40.20","data":"Ending send() function pass."}

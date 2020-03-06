@@ -1,0 +1,21 @@
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Basename file: `rug-shutterstock_118133368-purchased-debbie.jpg`. Post-send deletion: "}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Created fileoptions lock file `send-live_a25d72d4615282b9328bacff31106056-3somkj.txt.lock` with ID: 5e318b566ff119.65617238."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.60","data":"Fileoptions `send-live_a25d72d4615282b9328bacff31106056-3somkj.txt` saved. 2844 bytes written."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Initializing destination."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Destination init loaded."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Initialized `live` destination."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.59","data":"Applying destination-specific defaults."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.60","data":"Applying global destination defaults."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.60","data":"Calling destination-specific send method `pb_backupbuddy_destination_live::send`."}
+{"event":"details","time":1580287238,"u":"45","run":"9.99","mem":"51.61","data":"Starting S32 send()."}
+{"event":"details","time":1580287238,"u":"46","run":"9.99","mem":"51.62","data":"File size of `266 KB`."}
+{"event":"details","time":1580287238,"u":"46","run":"9.99","mem":"51.62","data":"Initiating multipart transfer."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.62","data":"Initiated multipart upload with ID `2~q31xEm3eldFQ5TE7hzGf1rQIsZpEldH`."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.63","data":"Multipart initiated; passing over to send first chunk this run. Burst size: `10 MB`."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.62","data":"Max time not set in settings so detecting server max PHP runtime."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.62","data":"Using max runtime: `30`."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.62","data":"About to read in part contents of part `1` of `1` parts of file `\/var\/www\/html\/wordpress\/wp-content\/uploads\/2017\/10\/rug-shutterstock_118133368-purchased-debbie.jpg` to remote location `wp-content\/uploads\/2017\/10\/rug-shutterstock_118133368-purchased-debbie.jpg` with multipart ID `2~q31xEm3eldFQ5TE7hzGf1rQIsZpEldH`."}
+{"event":"details","time":1580287238,"u":"57","run":"10.10","mem":"51.89","data":"Beginning upload."}

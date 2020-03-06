@@ -1,0 +1,24 @@
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"----- Initiating master send function for BackupBuddy v8.5.2.0."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Basename file: `.htaccess`. Post-send deletion: "}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Created fileoptions lock file `send-live_fe8611a439a05e5c26dbf6058c35c7dd-bxe1fk.txt.lock` with ID: 5e32f361e595e6.75797480."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.45","data":"Fileoptions `send-live_fe8611a439a05e5c26dbf6058c35c7dd-bxe1fk.txt` saved. 2840 bytes written."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Initializing destination."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Loading destination init file `\/var\/www\/html\/wordpress\/wp-content\/plugins\/backupbuddy\/destinations\/live\/init.php`."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Destination init loaded."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Initialized `live` destination."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.44","data":"Applying destination-specific defaults."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.45","data":"Applying global destination defaults."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.45","data":"Calling destination-specific send method `pb_backupbuddy_destination_live::send`."}
+{"event":"error","time":1580379409,"u":"94","run":"0.22","mem":"45.60","data":"Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.60","data":"Fileoptions instance #45."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Created fileoptions lock file `send-live_fe8611a439a05e5c26dbf6058c35c7dd-bxe1fk.txt.lock` with ID: 5e32f361e68de5.28365057."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.62","data":"Fileoptions `send-live_fe8611a439a05e5c26dbf6058c35c7dd-bxe1fk.txt` saved. 2976 bytes written."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Completed send function. Failure. Post-send deletion will be skipped if enabled."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"About to load fileoptions data."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Fileoptions instance #16."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Created fileoptions lock file `send-live_fe8611a439a05e5c26dbf6058c35c7dd-bxe1fk.txt.lock` with ID: 5e32f361e6c792.75893389."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.62","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.62","data":"Fileoptions data loaded."}
+{"event":"details","time":1580379409,"u":"94","run":"0.22","mem":"45.61","data":"Ending send() function pass."}
